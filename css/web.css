@@ -1,0 +1,397 @@
+* {padding: 0; margin: 0;}
+
+/*css menu*/
+menu .ct {width: 100%; position: fixed; background-color: #b2bec3; }
+menu .kiri img{width: 65px;height: 65px; 
+    margin: 15px 0 0 35px; float: left; clip-path: circle(50%);}
+menu .kanan .k1 h2 {display: inline; margin-top: 9px; float: left; 
+    margin-left: -20px; color: white; }
+menu .kanan {float: left; font-size: 17px; color: white; 
+    margin-top: 20px; margin-left: 45px;}
+
+nav {width: 1000px;}
+nav ul li {float: left; list-style: none; color: white; margin-left: 10px;
+    margin-top: 5px; }
+nav ul li a {margin-right: 15px;  text-decoration: none; margin-left: 20px; }
+
+
+nav ul li ul {display: none;}
+nav ul li:hover > ul {display: block; position: absolute; }
+
+nav {position: relative; height: 40px; line-height: 40px;}
+
+nav ul li ul {position: absolute; }
+nav ul li ul li {float: none; position: relative; background-color: cyan; margin: auto;}
+nav ul li:hover {background: aqua;}
+nav ul li a:hover {color: red;}
+
+nav ul ul ul {left: 100%; top: 0; width: 200px;}
+
+/*article*/
+.container {width: 100%; overflow: hidden; background-image: url(../images/lombok.jpg); 
+    background-size: cover;  background-repeat: no-repeat; height: 800px; font-family: cursive;}
+article .container .tulis {width: 300px; position: absolute; color: white;
+     margin: 60px auto auto auto; left: 0; right: 0; top: 350px; } 
+article .container .tulis h1 {font-size: 100px; text-align: center; color: whitesmoke; }
+article .tool {text-align: center; font-size: 150%; margin-top: 20px;}
+article .tool button[type=Search] {background-color: red; width: 60px; border-radius: 5%;
+    color: white; }
+
+/*body*/
+body .ctr1 {width: 100%; }
+
+body .ctr2 {width: 1000px; margin: auto; } 
+
+body .ctr3 {margin-top: 70px; } 
+
+body .ctr3  h4 {text-align: center; margin-top: 10px; }
+body .ctr3  h1 {text-align: center; margin-top: 10px; }
+
+body .container2 {width: 100%;  background-size: cover;  
+    overflow: hidden; background-repeat: no-repeat; height: 500px; } 
+
+body .foto1 {width: 300px; margin-right: 10px; margin-left: 1px; }
+body .container2 .foto1 img {width: 300px; height: 200px; margin-right:20px;
+    margin-left: 20px; }
+body .container2 .foto1 {float: left; margin: 13px; }
+body .container2 .foto1 .judul {font-size: 20px; color: seagreen; text-align: center;
+    margin-top: 10px; }
+body .container2 .foto1 {position: relative; }
+body .container2 .foto1 .nomor {position: absolute; width: 30%; height: 10%;
+    background-color: mediumaquamarine; left: 65%; top: 80%; 
+    text-align: center; padding: 2px; border-radius: 45%; }
+body .container2 .foto1 .judul{position: absolute; width: 25%; height: auto; 
+    border-radius: 50%; bottom: 25%; left: 10%; font-size: 30px; 
+    color: white; padding: 6px; text-align: center;  }
+body .container2 .foto1 img:hover {opacity: 0.5; }
+
+body .foto2 {width: 300px; margin-right: 10px; margin-left: 1px; }
+body .container2 .foto2 img {width: 300px; height: 200px; margin-right:20px;
+    margin-left: 20px; }
+body .container2 .foto2 {float: left; margin: 13px; }
+body .container2 .foto2 .judul {font-size: 20px; color: seagreen; text-align: center;
+    margin-top: 10px; }
+body .container2 .foto2 {position: relative; }
+body .container2 .foto2 .nomor {position: absolute; width: 30%; height: 10%;
+    background-color: mediumaquamarine; left: 65%; top: 80%; 
+    text-align: center; padding: 2px; border-radius: 45%; }
+body .container2 .foto2 .judul{position: absolute; width: 25%; height: auto; 
+    border-radius: 50%; bottom: 25%; left: 10%; font-size: 30px; 
+    color: white; padding: 6px; text-align: center;  }
+body .container2 .foto2 img:hover {opacity: 0.5; }
+
+body .foto3 {width: 300px; margin-right: 10px; margin-left: 1px; }
+body .container2 .foto3 img {width: 300px; height: 200px; margin-right:20px;
+    margin-left: 20px; }
+body .container2 .foto3 {float: left; margin: 13px; }
+body .container2 .foto3 .judul {font-size: 20px; color: seagreen; text-align: center;
+    margin-top: 10px; }
+body .container2 .foto3 {position: relative; }
+body .container2 .foto3 .nomor {position: absolute; width: 30%; height: 10%;
+    background-color: mediumaquamarine; left: 65%; top: 80%; 
+    text-align: center; padding: 2px; border-radius: 45%;  }
+body .container2 .foto3 .judul{position: absolute; width: 25%; height: auto; 
+    border-radius: 50%; bottom: 25%; left: 10%; font-size: 30px; 
+    color: white; padding: 6px; text-align: center;  }
+body .container2 .foto3 img:hover {opacity: 0.5; }
+
+body .foto4 {width: 300px; margin-right: 10px; margin-left: 1px; }
+body .container2 .foto4 img {width: 300px; height: 200px; margin-right:20px;
+    margin-left: 20px; }
+body .container2 .foto4 {float: left; margin: 13px; }
+body .container2 .foto4 .judul {font-size: 20px; color: seagreen; text-align: center;
+    margin-top: 10px; }
+body .container2 .foto4 {position: relative; }
+body .container2 .foto4 .nomor {position: absolute; width: 30%; height: 10%;
+    background-color: mediumaquamarine; left: 65%; top: 80%; 
+    text-align: center; padding: 2px; border-radius: 45%; }
+body .container2 .foto4 .judul{position: absolute; width: 25%; height: auto; 
+    border-radius: 50%; bottom: 25%; left: 10%; font-size: 30px; 
+    color: white; padding: 6px; text-align: center; }
+body .container2 .foto4 img:hover {opacity: 0.5; }
+
+body .foto5 {width: 300px; margin-right: 10px; margin-left: 1px; }
+body .container2 .foto5 img {width: 300px; height: 200px; margin-right:20px;
+    margin-left: 20px; }
+body .container2 .foto5 {float: left; margin: 13px; }
+body .container2 .foto5 .judul {font-size: 20px; color: seagreen; text-align: center;
+    margin-top: 10px; }
+body .container2 .foto5 {position: relative; }
+body .container2 .foto5 .nomor {position: absolute; width: 30%; height: 10%;
+    background-color: mediumaquamarine; left: 65%; top: 80%; 
+    text-align: center; padding: 2px; border-radius: 45%; }
+body .container2 .foto5 .judul{position: absolute; width: 25%; height: auto; 
+    border-radius: 50%; bottom: 25%; left: 10%; font-size: 30px; 
+    color: white; padding: 6px; text-align: center;  }
+body .container2 .foto5 img:hover {opacity: 0.5; }
+
+body .foto6 {width: 310px; margin-right: 10px; margin-left: 1px; }
+body .container2 .foto6 img {width: 300px; height: 200px; margin-right:20px;
+    margin-left: 20px; }
+body .container2 .foto6 {float: left; margin: 13px; }
+body .container2 .foto6 .judul {font-size: 20px; color: seagreen; text-align: center;
+    margin-top: 10px; }
+body .container2 .foto6 {position: relative; }
+body .container2 .foto6 .nomor {position: absolute; width: 30%; height: 10%;
+    background-color: mediumaquamarine; left: 65%; top: 80%; 
+    text-align: center; padding: 2px; border-radius: 45%; }
+body .container2 .foto6 .judul{position: absolute; width: 25%; height: auto; 
+    border-radius: 50%; bottom: 25%; left: 10%; font-size: 30px; 
+    color: white; padding: 6px; text-align: center;  }
+body .container2 .foto6 img:hover {opacity: 0.5; }
+
+body .container3 {width: 100%;  background-size: cover;  
+    overflow: hidden; background-repeat: no-repeat; height: 130px; 
+    background-color: aquamarine;}
+body .ctr4 {width: 1000px; margin: auto;}
+body .container3 .ctr5 { font-size: 16px; font-family:Arial, Helvetica, sans-serif; 
+    margin-top: 15px; padding: 15px; }
+body .container3 .ctr5 input[type=Yourmail] {background-color: white; width: 300px;
+    border-radius: 4%; margin-left: 15px; height: 30px; padding: 5px; }
+body .container3 .ctr5 button[type=Subscribe] {background-color: red; width: 80px; height: 40px;
+    border-radius: 4%; margin-left: 15px; padding: 5px; color: white; }
+
+body .container4 {width: 100%;  background-size: cover;  
+    overflow: hidden; background-repeat: no-repeat; height: 1000px;  }
+body .c1 {width: 1000px; margin: auto; }
+body .container4 .c2 h4 {text-align: center; margin-top: 10px; }
+body .container4 .c2 h1 {text-align: center; margin-top: 60px; }
+
+body .f1 {width: 300px; margin-right: 10px; margin-left: 1px; }
+body .container4 .f1 img {width: 300px; height: 200px; margin-right:20px;
+    margin-left: 20px; }
+body .container4 .f1 {float: left; margin: 13px; }
+body .container4 .f1 .judul {font-size: 20px; color: seagreen; text-align: center;
+    margin-top: 10px; }
+body .container4 .f1 {position: relative; }
+body .container4 .f1 .nomor {position: absolute; width: 17%; height: 10%;
+    background-color: aquamarine; left: 15%; top: 10%; 
+    text-align: center; padding: 2px; border-radius: 10%; }
+body .container4 .f1 h3 {margin-top: 10px; }
+body .container4 .f1 p {position: absolute; overflow: hidden; margin-left: 73px; 
+    margin-top: -38px; }
+
+body .f2 {width: 300px; margin-right: 10px; margin-left: 1px; }
+body .container4 .f2 img {width: 300px; height: 200px; margin-right:20px;
+    margin-left: 20px; }
+body .container4 .f2 {float: left; margin: 13px; }
+body .container4 .f2 .judul {font-size: 20px; color: seagreen; text-align: center;
+    margin-top: 10px; }
+body .container4 .f2 {position: relative; }
+body .container4 .f2 .nomor {position: absolute; width: 17%; height: 10%;
+    background-color: aquamarine; left: 15%; top: 10%; 
+    text-align: center; padding: 2px; border-radius: 10%; }
+body .container4 .f2 h3 {margin-top: 10px; }
+body .container4 .f2 p {position: absolute; overflow: hidden; margin-left: 73px; 
+    margin-top: -38px; }
+
+body .f3 {width: 300px; margin-right: 10px; margin-left: 1px; }
+body .container4 .f3 img {width: 300px; height: 200px; margin-right:20px;
+    margin-left: 20px; }
+body .container4 .f3 {float: left; margin: 13px; }
+body .container4 .f3 .judul {font-size: 20px; color: seagreen; text-align: center;
+    margin-top: 10px; }
+body .container4 .f3 {position: relative; }
+body .container4 .f3 .nomor {position: absolute; width: 17%; height: 10%;
+    background-color: aquamarine; left: 15%; top: 10%; 
+    text-align: center; padding: 2px; border-radius: 10%; }
+body .container4 .f3 h3 {margin-top: 10px; }
+body .container4 .f3 p {position: absolute; overflow: hidden; margin-left: 73px; 
+    margin-top: -38px; }
+
+body .f4 {width: 300px; margin-right: 10px; margin-left: 1px; }
+body .container4 .f4 img {width: 300px; height: 200px; margin-right:20px;
+    margin-left: 20px; }
+body .container4 .f4 {float: left; margin: 13px; }
+body .container4 .f4 .judul {font-size: 20px; color: seagreen; text-align: center;
+    margin-top: 10px; }
+body .container4 .f4 {position: relative; }
+body .container4 .f4 .nomor {position: absolute; width: 17%; height: 10%;
+    background-color: aquamarine; left: 15%; top: 10%; 
+    text-align: center; padding: 2px; border-radius: 10%; }
+body .container4 .f4 h3 {margin-top: 10px; }
+body .container4 .f4 p {position: absolute; overflow: hidden; margin-left: 73px; 
+    margin-top: -38px; }
+
+body .f5 {width: 300px; margin-right: 10px; margin-left: 1px; }
+body .container4 .f5 img {width: 300px; height: 200px; margin-right:20px;
+    margin-left: 20px; }
+body .container4 .f5 {float: left; margin: 13px; }
+body .container4 .f5 .judul {font-size: 20px; color: seagreen; text-align: center;
+    margin-top: 10px; }
+body .container4 .f5 {position: relative; }
+body .container4 .f5 .nomor {position: absolute; width: 17%; height: 10%;
+    background-color: aquamarine; left: 15%; top: 10%; 
+    text-align: center; padding: 2px; border-radius: 10%; }
+body .container4 .f5 h3 {margin-top: 10px; }
+body .container4 .f5 p {position: absolute; overflow: hidden; margin-left: 73px; 
+    margin-top: -38px; }
+
+
+body .f6 {width: 300px; margin-right: 10px; margin-left: 1px; }
+body .container4 .f6 img {width: 300px; height: 200px; margin-right:20px;
+    margin-left: 20px; }
+body .container4 .f6 {float: left; margin: 13px; }
+body .container4 .f6 .judul {font-size: 20px; color: seagreen; text-align: center;
+    margin-top: 10px; }
+body .container4 .f6 {position: relative; }
+body .container4 .f6 .nomor {position: absolute; width: 17%; height: 10%;
+    background-color: aquamarine; left: 15%; top: 10%; 
+    text-align: center; padding: 2px; border-radius: 10%; }
+body .container4 .f6 h3 {margin-top: 10px; }
+body .container4 .f6 p {position: absolute; overflow: hidden; margin-left: 73px; 
+    margin-top: -38px; }
+
+
+body .container4 .p {width: 100%; }
+body .container4 .p .pl {width: 1000px; margin: auto; }
+body .container4 .p .pl .pls button[type=MorePlaces] {background-color: red; color: white;
+    padding: 5px; width: 120px; height: 50px; border-radius: 5%; margin-left: 450px; 
+    margin-top: 50px; position: relative; overflow: hidden; }
+
+body .container4 .c3 h4 {margin-left: 20px; }
+body .container4 .c3 h3 {margin-left: 20px; }
+
+body .container5 {width: 100%;  background-size: cover;  
+    overflow: hidden; background-repeat: no-repeat; height: 600px;
+    background-image: url(../images/lombok.jpg); }
+body .container5 .v { overflow: hidden; width: 1000px; margin: auto; height: 600px;}
+body .container5 .v .v1 {  width: 200px; margin: 200px auto auto auto;}
+body .container5 .v .v1 .v2 {width: 200px; margin: auto; margin-bottom: 20px;}
+body .container5 .v .v1 .v2 h1 {text-align: center;}
+body .container5 .v .v1 .v3 img {width: 100px; height: 60px;}
+body .container5 .v .v1 .v3 {width: 100px; margin: auto;}
+
+body .container6 {width: 100%; }
+body .container6 {width: 1000px; margin: auto; height: 300px; } 
+body .container6 .l {margin-top: 70px; }
+
+body .l1 {width: 300px; }
+body .container6 .l1 img {width: 60px; height: 60px; margin-top: 30px;
+    margin-right:20px; margin-left: 120px; }
+body .container6 .l1 {float: left; margin: 13px; }
+body .container .ls {margin-top: 10px; }
+body .container6 .l1 .ls h3 {font-family: Arial, Helvetica, sans-serif;
+    text-align: center; margin-top: 10px; }
+body .container6 .l1 .ls h4 {font-family: Arial, Helvetica, sans-serif;
+    text-align: center; margin-top: 10px; }
+
+body .l2 {width: 300px; }
+body .container6 .l2 img {width: 60px; height: 60px; margin-top: 30px;
+    margin-right:20px; margin-left: 120px; }
+body .container6 .l2 {float: left; margin: 13px; }
+body .container .ls1 {margin-top: 10px; }
+body .container6 .l2 .ls1 h3 {font-family: Arial, Helvetica, sans-serif;
+   text-align: center; margin-top: 10px; }
+body .container6 .l2 .ls1 h4 {font-family: Arial, Helvetica, sans-serif;
+    text-align: center; margin-top: 10px; }
+
+body .l3 {width: 300px; }
+body .container6 .l3 img {width: 60px; height: 60px; margin-top: 30px;
+    margin-right:20px; margin-left: 120px; }
+body .container6 .l3 {float: left; margin: 13px; }
+body .container .ls2 {margin-top: 10px; }
+body .container6 .l3 .ls2 h3 {font-family: Arial, Helvetica, sans-serif;
+   text-align: center; margin-top: 10px; }
+body .container6 .l3 .ls2 h4 {font-family: Arial, Helvetica, sans-serif;
+   text-align: center; margin-top: 10px; }
+
+body .container8 {width: 100%; }
+body .container8 {width: 1000px; margin: auto; height: 400px; } 
+body .container8 .t {margin-top: 50px; }
+
+body .container8 .t .t1 h1 {text-align: center; font-family: Arial, Helvetica, sans-serif; }
+
+body .t2 {width: 300px; }
+body .container8 .t2 img {width: 300px; height: 200px; margin-top: 30px;
+    margin-right:20px; margin-left: 40px; }
+body .container8 .t2 {float: left; margin: 13px; margin-top: 10px;}
+body .container8 .t2 .ts h5 {font-family: Arial, Helvetica, sans-serif;
+   text-align: left; margin-top: 10px; margin-left: 40px; font-size: 14px;}
+
+body .t3 {width: 300px; }
+body .container8 .t3 img {width: 300px; height: 200px; margin-top: 30px;
+   margin-right:20px; margin-left: 40px; }
+body .container8 .t3 {float: left; margin: 13px; margin-top: 10px; }
+body .container8 .t3 .ts1 h5 {font-family: Arial, Helvetica, sans-serif;
+  text-align: left; margin-top: 10px; margin-left: 40px; font-size: 14px;}
+
+body .t4 {width: 300px; }
+body .container8 .t4 img {width: 300px; height: 200px; margin-top: 30px;
+     margin-right:20px; margin-left: 40px; }
+body .container8 .t4 {float: left; margin: 13px; margin-top: 10px; }
+body .container8 .t4 .ts2 h5 {font-family: Arial, Helvetica, sans-serif;
+    text-align: left; margin-top: 10px; margin-left: 40px; font-size: 14px;}
+
+body .container9 {width: 100%; margin:auto; height: 400px; 
+    background-color: antiquewhite; } 
+body .container9 .kt {width: 1000px; margin: auto; height: 400px; }
+
+body .container9 .kr1 img {width: 65px; height: 65px; 
+    margin: 15px 0 0 35px; float: left; clip-path: circle(50%);
+    margin-right: 10px; }
+body .container9 .kr2 p {margin-left: 50px; font-family: Arial, Helvetica, sans-serif; }
+
+body .container9 .tg1 p {margin-left: 350px; margin-top: -222px; 
+    font-family: Arial, Helvetica, sans-serif; }
+
+body .container9 .tg2 p {margin-left: 500px; margin-top: -223px; 
+    font-family: Arial, Helvetica, sans-serif; }
+
+body .container9 .kn p {margin-left: 720px; margin-top: -203px; 
+    font-family: Arial, Helvetica, sans-serif; }
+
+body .container9 .kn .gbr .IG img { margin-left: 608px; margin-top: 15px; 
+    margin-right: 15px; border-radius: 3%; margin-bottom: 80px; overflow: hidden; }
+    
+body .container9 .kn .gbr .IG1 img { margin-left: 718px; margin-top: -70px; 
+    margin-right: 15px; border-radius: 3%; margin-bottom: 80px; overflow: hidden;}
+    
+body .container9 .kn .gbr .IG2 img { margin-left: 820px; margin-top: -277px; 
+    margin-right: 15px; border-radius: 3%; margin-bottom: 80px; overflow: hidden; 
+    position: absolute; }
+    
+body .container9 .kn .gbr .IG3 img { margin-left: 820px; margin-top: -175px; 
+    margin-right: 15px; border-radius: 3%; margin-bottom: 80px; overflow: hidden; 
+    position: absolute; }
+    
+body .container9 .kn .gbr .IG4 img { margin-left: 923px; margin-top: -175px; 
+    margin-right: 15px; border-radius: 3%; margin-bottom: 80px; overflow: hidden; 
+    position: absolute; }
+        
+body .container9 .kn .gbr .IG5 img { margin-left: 923px; margin-top: -277px; 
+    margin-right: 15px; border-radius: 3%; margin-bottom: 80px; overflow: hidden; 
+    position: absolute; }
+
+body .container9 .kn p1 {text-align: center; margin-top: 200px;
+    margin-left: 300px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

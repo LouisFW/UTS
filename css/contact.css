@@ -1,0 +1,125 @@
+* {padding: 0; margin: 0;}
+
+/*css menu*/
+menu .ct {width: 100%; position: fixed; background-color: #b2bec3; }
+menu .kiri img{width: 65px;height: 65px; 
+    margin: 15px 0 0 35px; float: left; clip-path: circle(50%);}
+menu .kanan .k1 h2 {display: inline; margin-top: 9px; float: left; 
+    margin-left: -20px; color: white; }
+menu .kanan {float: left; font-size: 17px; color: white; 
+    margin-top: 20px; margin-left: 45px;}
+
+nav {width: 1000px;}
+nav ul li {float: left; list-style: none; color: white; margin-left: 10px;
+    margin-top: 5px; }
+nav ul li a {margin-right: 15px;  text-decoration: none; margin-left: 20px; }
+
+
+nav ul li ul {display: none;}
+nav ul li:hover > ul {display: block; font-size: position: absolute; }
+
+nav {position: relative; height: 40px; line-height: 40px;}
+
+nav ul li ul {position: absolute; }
+nav ul li ul li {float: none; position: relative; background-color: cyan; margin: auto;}
+nav ul li:hover {background: aqua;}
+nav ul li a: hover {color: red;}
+
+nav ul ul ul {left: 100%; top: 0; width: 200px; }
+
+/*article*/
+.container {width: 100%; overflow: hidden; background-image: url(../images/lombok.jpg); 
+    background-size: cover;  background-repeat: no-repeat; height: 800px; font-family: cursive; 
+    margin-bottom: 40px; }
+article .container .tulis {width: 300px; position: absolute; color: white;
+     margin: 60px auto auto auto; left: 0; right: 0; top: 350px; } 
+article .container .tulis h1 {font-size: 100px; text-align: center; color: whitesmoke; }
+
+
+/*body*/
+body .container1 {width: 100%; }
+body .container1 .ma {width: 1000px; height: 1000px; margin: auto; }
+body .container1 .m .map iframe {margin-left: 200px; }
+
+body .get {width: 100%; height: 500px; }
+body .get h3 {margin-top: 50px; font-family: Arial, Helvetica, sans-serif; 
+    margin-bottom: 20px; }
+
+body .get .get2 input[type=EnterMessage] {width: 550px; height: 150px; 
+    margin-bottom: 20px; }
+
+body .get .get3 input[type=EnterYourName] {width: 260px; height: 40px; 
+    margin-bottom: 20px; margin-right: 20px; }
+body .get .get3 input[type=Email] {width: 260px; height: 40px; 
+    margin-bottom: 20px; }
+
+body .get .get4 input[type=EnterSubject] {width: 550px; height: 40px; 
+    margin-bottom: 20px; }
+
+body .get .get5 Button[type=Button] {width: 100px; height: 40px;
+    background-color: aqua; }
+
+body .container1 .ma .post1 img {position: absolute; overflow: hidden; margin-left: 680px;
+    margin-top: -470px; padding: 10px; font-family: Arial, Helvetica, sans-serif; }
+body .container1 .ma .post1 h4 {position: absolute; overflow: hidden; margin-left: 780px;
+    margin-top: -450px; padding: 10px; font-family: Arial, Helvetica, sans-serif; }
+body .container1 .ma .post1 h5 {position: absolute; overflow: hidden; margin-left: 780px;
+    margin-top: -430px; padding: 10px; font-family: Arial, Helvetica, sans-serif; }
+
+body .container1 .ma .post2 img {position: absolute; overflow: hidden; margin-left: 680px;
+    margin-top: -370px; padding: 10px; font-family: Arial, Helvetica, sans-serif; }
+body .container1 .ma .post2 h4 {position: absolute; overflow: hidden; margin-left: 780px;
+    margin-top: -350px; padding: 10px; font-family: Arial, Helvetica, sans-serif; }
+body .container1 .ma .post2 h5 {position: absolute; overflow: hidden; margin-left: 780px;
+    margin-top: -330px; padding: 10px; font-family: Arial, Helvetica, sans-serif; }
+
+body .container1 .ma .post3 img {position: absolute; overflow: hidden; margin-left: 680px;
+    margin-top: -270px; padding: 10px; font-family: Arial, Helvetica, sans-serif; }
+body .container1 .ma .post3 h4 {position: absolute; overflow: hidden; margin-left: 780px;
+    margin-top: -250px; padding: 10px; font-family: Arial, Helvetica, sans-serif; }
+body .container1 .ma .post3 h5 {position: absolute; overflow: hidden; margin-left: 780px;
+    margin-top: -230px; padding: 10px; font-family: Arial, Helvetica, sans-serif; }
+
+
+body .container3 {width: 100%; margin:auto; height: 400px; 
+    background-color: antiquewhite; } 
+body .container3 .kt {width: 1000px; margin: auto; height: 400px; }
+    
+body .container3 .kr1 img {width: 65px; height: 65px; 
+    margin: 15px 0 0 35px; float: left; clip-path: circle(50%);
+    margin-right: 10px; }
+body .container3 .kr2 p {margin-left: 50px; font-family: Arial, Helvetica, sans-serif; }
+    
+body .container3 .tg1 p {margin-left: 350px; margin-top: -222px; 
+    font-family: Arial, Helvetica, sans-serif; }
+    
+body .container3 .tg2 p {margin-left: 500px; margin-top: -223px; 
+    font-family: Arial, Helvetica, sans-serif; }
+    
+body .container3 .kn p {margin-left: 720px; margin-top: -203px; 
+    font-family: Arial, Helvetica, sans-serif; }
+    
+body .container3 .kn .gbr .IG img { margin-left: 608px; margin-top: 15px; 
+    margin-right: 15px; border-radius: 3%; margin-bottom: 80px; overflow: hidden; }
+
+body .container3 .kn .gbr .IG1 img { margin-left: 718px; margin-top: -70px; 
+    margin-right: 15px; border-radius: 3%; margin-bottom: 80px; overflow: hidden;}
+
+body .container3 .kn .gbr .IG2 img { margin-left: 820px; margin-top: -277px; 
+    margin-right: 15px; border-radius: 3%; margin-bottom: 80px; overflow: hidden; 
+    position: absolute; }
+
+body .container3 .kn .gbr .IG3 img { margin-left: 820px; margin-top: -175px; 
+    margin-right: 15px; border-radius: 3%; margin-bottom: 80px; overflow: hidden; 
+    position: absolute; }
+
+body .container3 .kn .gbr .IG4 img { margin-left: 923px; margin-top: -175px; 
+    margin-right: 15px; border-radius: 3%; margin-bottom: 80px; overflow: hidden; 
+    position: absolute; }
+    
+body .container3 .kn .gbr .IG5 img { margin-left: 923px; margin-top: -277px; 
+    margin-right: 15px; border-radius: 3%; margin-bottom: 80px; overflow: hidden; 
+    position: absolute; }
+    
+body .container3 .kn p1 {text-align: center; margin-top: 200px;
+        margin-left: 300px; }
